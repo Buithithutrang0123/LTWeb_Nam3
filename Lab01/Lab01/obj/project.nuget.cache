@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QXXpmEHVHr81wcJx4ojtI0CpmyrEAZGunfaBV8Z/qTegk2ZgoYMz2uVayCTajqrctHSaoHS4/E2Rr/NxL9sviw==",
+  "success": true,
+  "projectFilePath": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\Buoi_Thuc_Hanh_So1_13_09_2023\\Lab01\\Lab01\\Lab01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thutr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
