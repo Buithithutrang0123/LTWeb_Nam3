@@ -1,0 +1,777 @@
+#zone1{
+    max-width: none !important;
+    .banner-zone1 img{
+        transition: all 1s;
+    }
+    overflow: hidden;
+    &:hover img{
+        scale: 1.1;
+    }
+    z-index: 1;
+    .content-zone1{
+        position: absolute;
+        color: #fff;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .content-border{
+        border: 3px solid #fff;
+        border-left: none;
+        border-right: none;
+        padding: 1rem 5rem;
+        margin: 2rem 0;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .m-content-border{
+        border: 2px solid #fff;
+        border-left: none;
+        border-right: none;
+        padding: 1rem 3rem;
+        padding-left: 0;
+        text-align: start;
+        font-size: 1.5rem;
+        line-height: 250%;
+        >p{
+            display: inline-block;
+        }
+    }
+}
+
+#zone2{
+    .content-zone2{
+        .title{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .content{
+            >h3{
+                font-size: 3rem;
+                margin: 3rem 0;
+            }
+            >p{
+                margin-bottom: 5rem;
+            }
+        }
+    }
+    .banner{
+        .img{
+            border-radius: 16px;
+            >img{
+                transition: all 1s;
+            }
+            &:hover img{
+                scale: 1.1;
+            }
+        }
+    }
+}
+#zone3{
+    .title{
+        >h3{
+            font-size: 2rem;
+        }
+    }
+    >.button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        >p{
+            padding: 10px 64px;
+        }
+    }
+}
+#zone4{
+    max-width: none !important;
+    .banner-zone4 img{
+        transition: all 1s;
+    }
+    &:hover img{
+        scale: 1.1;
+    }
+    .content{
+        width: 45%;
+        height: 0;
+        padding-bottom: 30%;
+        top: 18%;
+        left: 10%;
+        color: #fff;
+        .head{
+            font-size: 3rem;
+            margin-top: 3%;
+            margin-left: 5%;
+        }
+        .collection{
+            margin-left: 13%;
+            margin-top: 5%;
+            >.collection-name{
+                font-size: 3rem ;
+            }
+            .describe{
+                margin-top: 5%;
+                width: 60%;
+                text-align: justify;
+                line-height: 1;
+            }
+            .button{
+                margin-top: 7%;
+            }
+        }
+        .bar{
+            background-color: #fff;
+            position: absolute;
+        }
+        .top-bar{
+            width: 100%;
+            height: 3px;
+            top: 0;
+            left: 0;
+        }
+        .left-bar{
+            width: 3px;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        .right-bar{
+            width: 3px;
+            height: 86%;
+            top: 0;
+            right: 0;
+        }
+        .bottom-bar{
+            width: 65%;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
+
+#zone5{
+    border-radius: 20px;
+    overflow: hidden;
+    .col1{
+        width: 77.5%;
+        .nhan{
+            width: 30%;
+            .text{
+                bottom: 10%;
+            }
+        }
+        .dong-ho{
+            width: 30%;
+            .text{
+                bottom: 10%;
+            }
+        }
+        .brand-name{
+            width: 28.7%;
+            font-size: 2.5rem;
+            white-space: nowrap;
+            position: relative;
+            margin-right: 5%;
+            >p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        .lac-tay{
+            width: 51%;
+            display: flex;
+            align-items: end;
+        }
+        .day-chuyen{
+            width: 40%;
+            margin-right: 5%;
+            display: flex;
+            align-items: end;
+        }
+    }
+    .col2{
+        width: 22.5%;
+    }
+    .item{
+        position: relative;
+        .text{
+            cursor: pointer;
+            margin-bottom: 0;
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 700;
+            transform: translateX(-50%);
+            padding: 0 .5rem;
+            white-space: nowrap;
+            &:hover{
+                box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+                transition: all 0.25s;
+            }
+        }
+        &:hover img{
+            box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.5);
+            transition: all 0.25s;
+        }
+    }
+    
+}
+.back-ground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: none;
+    overflow: hidden;
+    .tron1 {
+        width: 72.3%; 
+        padding-bottom: 72.3%; 
+        background-color: rgba(183, 141, 113, 0.15);
+        border-radius: 50%;
+        position: absolute;
+        top: 27%;
+        right: 0;
+        transform: translate(65%,-50%);
+    }
+    .tron1 .tron1-{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(183, 141, 113, 0.1);
+    }
+    .tron2 {
+        width: 38.2%; 
+        padding-bottom: 38.2%; 
+        background-color: rgba(183, 141, 113, 0.15);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 12%;
+        left: 0;
+        transform: translate(-60%,50%);
+    }
+    .tron2 .tron2-{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(183, 141, 113, 0.1);
+    }
+    .tron3 {
+        width: 38.2%; 
+        padding-bottom: 38.2%; 
+        background-color: rgba(183, 141, 113, 0.15);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 3%;
+        right: -5%;
+        transform: translate(50%,50%);
+    }
+    .tron3 .tron3-{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(183, 141, 113, 0.1);
+    }
+    .tron4 {
+        display: none;
+        width: 55%; 
+        padding-bottom: 55%; 
+        background-color: rgba(183, 141, 113, 0.15);
+        border-radius: 50%;
+        position: absolute;
+        transform: translate(50%,50%);
+    }
+    .tron4 .tron4-{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(183, 141, 113, 0.1);
+    }
+}
+
+#zone1,#zone2,#zone3,#zone4,#zone5{
+    z-index: 1;
+}
+
+@media only screen and (min-width: 1440px) { 
+    
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media only screen and (max-width: 1439.98px) {
+    #zone4{
+        .content{
+            .head{
+                font-size: 2.5rem;
+            }
+            .collection{
+                margin-top: 3%;
+                .collection-name{
+                    font-size: 2.5rem;
+                }
+                .describe{
+                    width: 70%;
+                    margin-top: 3%;
+                }
+                .button{
+                    margin-top: 7%;
+                }
+            }
+        }
+    }
+}
+
+/* // `xl` applies to large devices (L laptop, less than 1240px) */
+@media  only screen and (max-width: 1239.98px) { 
+    #zone1 .content-zone1 {
+        >p{
+            font-size: 5rem !important;
+        }
+        .content-border{
+            border: 2px solid #fff;
+            border-left: none;
+            border-right: none;
+            >p{
+                font-size: 1.25rem;
+            }
+        }
+        .button{
+            margin-top: 2rem !important;
+        }
+    }
+    #zone2{
+        .content-zone2{
+            .title{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .content{
+                >h3{
+                    font-size: 3rem;
+                    margin: 2rem 0;
+                }
+                >p{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    #zone5{
+        .col1{
+            .brand-name{
+                font-size: 2.25rem;
+            }
+        }
+    }
+}
+
+/* // `xl` applies to large devices (LapTop, less than 1064px) */
+@media  only screen and (max-width: 1063.98px) { 
+    #zone1 .content-zone1 {
+        >p{
+            font-size: 4rem !important;
+        }
+        .content-border{
+            border: 2px solid #fff;
+            border-left: none;
+            border-right: none;
+            >p{
+                font-size: 1.25rem;
+            }
+        }
+        .button{
+            margin-top: 2rem !important;
+        }
+    }
+    #zone4{
+        .content{
+            .collection{
+                .collection-name{
+                    font-size: 2rem;
+                }
+                .describe{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+/* // `lg` applies to medium devices (S Laptop, less than 992px) */
+@media  only screen and (max-width: 991.98px) { 
+    #zone1 .content-zone1 {
+        >p{
+            font-size: 3.5rem !important;
+            margin-bottom: 2rem !important;
+        }
+        .content-border{
+            >p{
+                font-size: 1rem;
+            }
+        }
+    }
+    #zone2{
+        .content-zone2{
+            width: 50% !important;
+            .content{
+                >h3{
+                    font-size: 2rem;
+                    margin-bottom: 1.5rem;
+                }
+                >p{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+        .button{
+            margin-top: 1rem !important;
+        }
+    }
+    #zone4{
+        .content{
+            .head{
+                font-size: 29px;
+            }
+            .collection{
+                .collection-name{
+                    font-size: 26px;
+                }
+                .describe{
+                    font-size: 13px;
+                }
+                .button{
+                    margin-top: 0;
+                    >p{
+                        padding: 4px 18px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    #zone5{
+        .col1{
+            .brand-name{
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .back-ground{
+        .tron1{
+            top:15%;
+            right: 0;
+        }
+        .tron2{
+            bottom: 20%;
+            left: -5%;
+        }
+        .tron3{
+            bottom: 3rem;
+            right: -3rem;
+        }
+        
+    }
+    
+}
+
+/* // `lg` applies to medium devices (tablets, less than 768px) */
+@media  only screen and (max-width: 767.98px) { 
+    #zone1{
+        .banner-zone1{
+            >.lap{
+                display: none !important;
+            }
+            >.phone{
+                display: block !important;
+            }
+        }
+        .content-zone1{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            left: 2rem !important;
+            top: 50% !important;
+            transform: translate(0,-50%) !important;
+            >p{
+                font-size: 4.5rem !important;
+                text-align: start !important;
+            }
+            >.content-border{
+                display: none !important;
+            }
+            >.m-content-border{
+                display: inline-block !important;
+                margin: 4rem 0;
+            }
+        }
+    }
+    #zone2{
+        flex-direction: column-reverse;
+        .m-title{
+            display: block !important;
+        }
+        .title{
+            display: none;
+        }
+        .content-zone2{
+            width: 100% !important;
+        }
+        .banner{
+            width: 100%;
+        }
+    }
+    #zone3{
+        .products{
+            margin-bottom: 5rem;
+        }
+        >.button{
+            display: flex !important;
+            justify-content: center;
+            width: 45%;
+            top: auto;
+            bottom: 0;
+        }
+    }
+    #zone4{
+        .banner-zone4{
+            display: none;
+        }
+        .m-banner-zone4{
+            display: block !important;
+        }
+        .bar{
+            display: none;
+        }
+        .content{
+            border: 4px solid #fff;
+            border-radius: 8px;
+            width: 90%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%,-50%) !important;
+            padding: 1rem !important;
+            .head{
+                margin-left: 0;
+                font-size: 4rem;
+                white-space: pre-wrap !important;
+                font-weight: 700;
+            }
+            .collection{
+                margin-left: 0;
+                .collection-name{
+                    font-size: 4rem;
+                    white-space: pre-wrap !important;
+                }
+                .describe{
+                    width: 70%;
+                    font-size: 1rem;
+                    line-height: 1.2;
+                }
+                .button{
+                    margin-top: 10%;
+                    >p{
+                        padding: 8px 46px;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    #zone5{
+        .col1{
+            width: 100%;
+            .nhan{
+                width: 45%;
+                margin-bottom: 3rem;
+            }
+            .dong-ho{
+                width: 45%;
+                margin-bottom: 3rem;
+            }
+            .m-bong-tai{
+                width: 45%;
+                display: block !important;
+                margin-bottom: 3rem;
+            }
+            .brand-name{
+                width: 45%;
+                margin: 0 !important;
+                font-size: 3.5rem;
+                white-space: pre-wrap !important;
+                >p{
+                    margin: 0 !important;
+                    left: 0 !important;
+                    transform: translate(0,-50%) !important;
+                }
+            }
+            .lac-tay{
+                display: none;
+            }
+            .day-chuyen{
+                display: none;
+            }
+            .m-lac-tay{
+                width: 45%;
+                display: block !important;
+            }
+            .m-day-chuyen{
+                width: 45%;
+                display: block !important;
+            }
+        }
+        .col2{
+            display: none;
+        }
+    }
+}
+
+/* // `sm` applies to x-small devices (L phones, less than 576px) */
+@media  only screen and (max-width: 575.98px) { 
+    #zone1{
+        .content-zone1{
+            >p{
+                font-size: 3.5rem !important;
+            }
+            >.m-content-border{
+                margin: 2rem 0;
+                >p{
+                    font-size: 1.25rem !important;
+                }
+            }
+        }
+    }
+    #zone4{
+        .content{
+            .head{
+                font-size: 3.5rem;
+            }
+            .collection{
+                .collection-name{
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+    #zone5{
+        .col1{
+           .brand-name{
+                font-size: 2.8rem;
+            } 
+        }
+        
+    }
+    .back-ground{
+        .tron2{
+            bottom: 16%;
+            left: -5%;
+        }
+        
+    }
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 425px) */
+@media  only screen and (max-width: 425.98px) { 
+    #zone1{
+        .content-zone1{
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%,-50%) !important;
+            >p{
+                font-size: 3rem !important;
+            }
+            >.m-content-border{
+                margin: 1rem 0;
+                >p{
+                    font-size: 1.25rem !important;
+                }
+            }
+        }
+    }
+    .button{
+        width: 100%;
+        /* display: flex !important; */
+        justify-content: center;
+    }
+    #zone2{
+        .button{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    #zone3 {
+        >.button{
+            width: 45% !important;
+        }
+    }
+    #zone4{
+        .content{
+            .head{
+                font-size: 3rem;
+            }
+            .collection{
+                .collection-name{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    #zone5{
+        .col1{
+           .brand-name{
+                font-size: 2.5rem;
+            } 
+        }
+        
+    }
+}
+/* // `sm` applies to x-small devices (small phones, less than 375px) */
+@media  only screen and (max-width: 375.98px) { 
+    #zone4{
+        .content{
+            .head{
+                font-size: 2.5rem;
+            }
+            .collection{
+                .collection-name{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+    #zone5{
+        .col1{
+           .brand-name{
+                font-size: 2.3rem;
+            } 
+        }
+        
+    }
+}

@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lesson01
 build_property.RootNamespace = Lesson01
-build_property.ProjectDir = D:\Nam3_ki1_2023_2024\Lap_Trinh_Web\tren_lop\thuc_hanh\Buoi_Thuc_Hanh_So2_20_09_2023\Lesson01\Lesson01\
+build_property.ProjectDir = D:\Nam3_ki1_2023_2024\Lap_Trinh_Web\tren_lop\thuc_hanh\LTWeb_Nam3\Lesson01\Lesson01\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Nam3_ki1_2023_2024\Lap_Trinh_Web\tren_lop\thuc_hanh\Buoi_Thuc_Hanh_So2_20_09_2023\Lesson01\Lesson01
+build_property.MSBuildProjectDirectory = D:\Nam3_ki1_2023_2024\Lap_Trinh_Web\tren_lop\thuc_hanh\LTWeb_Nam3\Lesson01\Lesson01
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Home/Index.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Home/Privacy.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/Components/Render/RenderLeftMenu.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/Components/Render/RenderLeftMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVuZGVyXFJlbmRlckxlZnRNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/Error.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/Footer.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/LeftMenu.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/LeftMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExlZnRNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/MyLayout.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/MyLayoutHelper.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/MyLayoutHelper.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE15TGF5b3V0SGVscGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/TopNav.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/TopNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvcE5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Student/Create.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Student/Index.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/_ViewImports.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/_ViewStart.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/Buoi_Thuc_Hanh_So2_20_09_2023/Lesson01/Lesson01/Views/Shared/_Layout.cshtml]
+[D:/Nam3_ki1_2023_2024/Lap_Trinh_Web/tren_lop/thuc_hanh/LTWeb_Nam3/Lesson01/Lesson01/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-08h3k8voi6

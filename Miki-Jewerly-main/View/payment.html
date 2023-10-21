@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miki Jewelry - Payments</title>
+    <link rel="icon" href="../Images/icon/logo-miki.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.rtl.min.css" integrity="sha512-rXhL8a+X3wTosWn2Zgd/5L8rfWrpff7qdOnl7Wg1n2zHk8lHGhiSujoyxoKw1nf43kZAzJoe0Z0ymr2Kkku7lQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/payment.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <header id="header">
+        <script src="./header.js"></script>
+    </header>
+    <section class="m-0-auto">
+        <div class="link d-flex w-100">
+            <p onclick="goToProducts()">Sản phẩm</p>
+            <div class="img-link w-9px">
+                <img src="../Images/icon/product-link.jpg" alt="img-link">
+            </div>
+            <p onclick="goToBasket()">Giỏ hàng</p>
+            <div class="img-link w-9px">
+                <img src="../Images/icon/product-link.jpg" alt="img-link">
+            </div>
+            <p class="to-link font-w700">Thanh toán</p>
+        </div>
+        <div class="content w-100">
+            <div class="head w-100">
+                <h2 class="font-w700">Thanh toán</h2>
+            </div>
+            <div class="detail d-flex w-100 justify-content-between flex-wrap-reverse">
+                <div class="payment w-47">
+                    <div class="address d-flex justify-content-between flex-wrap">
+                        <!-- địa chỉ -->
+                        <div class="title w-100">
+                            <p class="font-w700">Địa chỉ giao hàng</p>
+                        </div>
+                        <input type="text" name="firstName" id="firstName" class="w-47" placeholder="Họ">
+                        <input type="text" name="lastName" id="lastName" class="w-47" placeholder="Tên">
+                        <input type="text" name="city" id="city" class="w-30" placeholder="Tỉnh/Thành phố">
+                        <input type="text" name="district" id="district" class="w-30" placeholder="Quận/Huyện">
+                        <input type="text" name="ward" id="ward" class="w-30" placeholder="Phường/Xã">
+                        <input type="text" name="detailAddress" id="detailAddress" class="w-100" placeholder="Địa chỉ cụ thể">
+                        <input type="tel" name="phoneNumber" id="phoneNumber" class="w-100" placeholder="Số điện thoại">
+                    </div>
+                    <div class="paymentMethod">
+                        <!-- phương thức thanh toán  -->
+                        <div class="title">
+                            <p class="font-w700">Phương thức thanh toán</p>
+                        </div>
+                        <div class="table-payment">
+                            <div class="cash d-flex align-items-center">
+                                <input type="checkbox" name="paymentMethod" id="Cash" onclick="printCredit(this.id)">
+                                <p>Tiền mặt</p>
+                            </div>
+                            <div class="credit-card-saved d-flex justify-content-between flex-wrap">
+                                <div class="w-100 d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <input type="checkbox" name="paymentMethod" id="creditCardSaved" onclick="printCredit(this.id)">
+                                        <p>Thẻ đã lưu</p>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="img h-32px">
+                                            <img src="../Images/icon/icon-visa.png" alt="visa" class="w-auto h-100">
+                                        </div>
+                                        <p>***696969</p>
+                                    </div>
+                                </div>
+                                <div class="creditCardSaved credit w-95 m-0-auto d-flex flex-wrap justify-content-between ">
+                                    <input type="text" name="creditCardId" id="creditCardId" class="w-100" placeholder="Nhập số thẻ">
+                                    <input type="text" name="exoirDate" id="exoirDate" class="w-45" placeholder="Ngày hết hạn(MM/YY)">
+                                    <input type="number" name="cvvNumber" id="cvvNumber" class="w-45" placeholder="Mã CVV">
+                                </div>
+                            </div>
+                            <div class="credit-card d-flex justify-content-between flex-wrap">
+                                <div class="w-100 d-flex justify-content-between">
+                                    <div class="d-flex align-items-center">
+                                        <input type="checkbox" name="paymentMethod" id="creditCard" onclick="printCredit(this.id)">
+                                        <p>Thẻ tín dụng hoặc thẻ ghi nợ</p>
+                                    </div>
+                                    <div class="img-credit-card d-flex">
+                                        <div class="img h-32px">
+                                            <img src="../Images/icon/icon-visa.png" alt="visa" class="w-auto h-100">
+                                        </div>
+                                        <div class="img h-32px">
+                                            <img src="../Images/icon/icon-debit.png" alt="debit" class="w-auto h-100">
+                                        </div>
+                                        <div class="img h-32px">
+                                            <img src="../Images/icon/icon-paypal.png" alt="paypal" class="w-auto h-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="creditCard credit w-95 m-0-auto d-flex flex-wrap justify-content-between ">
+                                    <input type="text" name="creditCardId" id="creditCardId" class="w-100" placeholder="Nhập số thẻ">
+                                    <input type="text" name="exoirDate" id="exoirDate" class="w-45" placeholder="Ngày hết hạn(MM/YY)">
+                                    <input type="number" name="cvvNumber" id="cvvNumber" class="w-45" placeholder="Mã CVV">
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="productBought w-47 d-flex justify-content-center">
+                    <!-- sản phẩm -->
+                    <div class="w-85">
+                        <div class="product">
+                            <!-- sản phẩm  -->
+                        </div>
+                        <div class="bill">
+                            <div class="bill-row d-flex justify-content-between">
+                                <p>Giá sản phẩm</p>
+                                <p class="sum-item-price font-w700 price">300.000đ</p> 
+                            </div>
+                            <div class="bill-row d-flex justify-content-between">
+                                <p>Phí giao hàng</p>
+                                <p class="ship-price font-w700 price">200.000đ</p>
+                            </div>
+                            <div class="bill-row-gift bill-row d-flex justify-content-between">
+                                <p>Voucher</p>
+                                <div class="gift-label">
+                                    <p></p>
+                                </div>
+                                <p class="gift-price font-w700 price">-50.000đ</p>
+                            </div>
+                        </div>
+                        <div class="last-price d-flex justify-content-between">
+                            <p>Tổng</p>
+                            <p class="sum-price font-w700">100.000đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot d-flex" >
+                <div class="button btn-black">
+                    <p>Thanh toán</p>
+                </div>
+                <div class="button btn-white" onclick="goToBasket()">
+                    <p>Trở lại giỏ hàng</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <script src="./footer.js"></script>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../JS/data.js"></script>
+    <script src="../JS/common.js"></script>
+    <script src="../JS/basket.js"></script>
+    <script src="../JS/payment.js"></script>
+</body>
+</html>

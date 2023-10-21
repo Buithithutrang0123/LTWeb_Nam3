@@ -9638,11 +9638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\Buoi_Thuc_Hanh_So2_20_09_2023\\Lesson01\\Lesson01\\Lesson01.csproj",
+      "projectUniqueName": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\LTWeb_Nam3\\Lesson01\\Lesson01\\Lesson01.csproj",
       "projectName": "Lesson01",
-      "projectPath": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\Buoi_Thuc_Hanh_So2_20_09_2023\\Lesson01\\Lesson01\\Lesson01.csproj",
+      "projectPath": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\LTWeb_Nam3\\Lesson01\\Lesson01\\Lesson01.csproj",
       "packagesPath": "C:\\Users\\thutr\\.nuget\\packages\\",
-      "outputPath": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\Buoi_Thuc_Hanh_So2_20_09_2023\\Lesson01\\Lesson01\\obj\\",
+      "outputPath": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\LTWeb_Nam3\\Lesson01\\Lesson01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thutr\\AppData\\Roaming\\NuGet\\NuGet.Config",

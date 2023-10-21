@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uyiiC2iOVah3I7OyZR8hNzbSRwMYOruibZ5ceRNFnSWv13HeieH3aZ2DJJrMNQY/JKQSyfeKcjIttErcDDF+iA==",
+  "dgSpecHash": "xvmMXOrIhPHy3E8o3SdnV1+fi1XVn9+nxjEvngqlrknAiAJbbi0bs06eq+8F4w6lgHXHwoqlj61M7i9GKPqcEA==",
   "success": true,
-  "projectFilePath": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\Buoi_Thuc_Hanh_So2_20_09_2023\\Lesson01\\Lesson01\\Lesson01.csproj",
+  "projectFilePath": "D:\\Nam3_ki1_2023_2024\\Lap_Trinh_Web\\tren_lop\\thuc_hanh\\LTWeb_Nam3\\Lesson01\\Lesson01\\Lesson01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thutr\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\thutr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
